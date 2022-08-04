@@ -6,12 +6,12 @@ metadata:
       metrics:
         - name: "testapp"
           provider:
-			ISD:
-			  Gate_url: "https://ds312.isd-dev.opsmx.net/"
-			  Application: "testapp"
-			  Baseline_start_time: "2022-07-29T13:15:00Z"
-			  Canary_start_time: "2022-07-29T13:15:00Z"
-		      LifetimeHours: "0.5"
-			  Threshold:
-				Pass:     80
-				Marginal: 65
+	    ISD:
+	      Gate_url: "https://ds312.isd-dev.opsmx.net/"
+	      Application: "testapp"
+	      Baseline_start_time: "2022-07-29T13:15:00Z"
+	      Canary_start_time: "2022-07-29T13:15:00Z"
+              LifetimeHours: "0.5"
+	      Threshold:
+		Pass:     80
+		Marginal: 65
