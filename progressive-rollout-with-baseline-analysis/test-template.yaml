@@ -11,3 +11,6 @@ spec:
           Gate_URL: https://ds312.isd-dev.opsmx.net
           Application: testapp
           LifetimeHours: "0.05"
+          Threshold:
+            Pass: 80
+            Marginal: 60
