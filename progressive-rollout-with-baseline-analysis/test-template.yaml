@@ -3,11 +3,6 @@ apiVersion: argoproj.io/v1alpha1
 metadata:
   name: oes-analysis-job
 spec:
-  args:
-    - name: experiment-hash
-    - name: canary-hash
-    - name: baseline-hash
-    - name: lifetime-hours
   metrics:
     - name: oes-analysis-job
       count: 1
