@@ -6,4 +6,7 @@ spec:
   metrics:
     - name: testapp
       count: 1
-
+      provider:
+        job:
+          spec:
+            backoffLimit: 0
