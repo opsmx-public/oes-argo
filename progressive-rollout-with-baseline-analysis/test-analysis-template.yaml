@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AnalysisTemplate
 metadata:
-    name: "testapp"
+    name: testapp
     spec:
       metrics:
-        - name: "testapp"
+        - name: testapp
           provider:
 	    ISD:
 	      Gate_url: "https://ds312.isd-dev.opsmx.net/"
