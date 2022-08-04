@@ -3,6 +3,8 @@ kind: AnalysisTemplate
 metadata:
   name: testapp
 spec:
+  args:
+    arg1: testval
   metrics:
     - name: testapp
       provider:
