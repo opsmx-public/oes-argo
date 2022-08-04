@@ -10,4 +10,4 @@ spec:
         isd:
           Gate_URL: https://ds312.isd-dev.opsmx.net
           Application: testapp
-          LifetimeHours: "0.5"
+          LifetimeHours: "0.05"
