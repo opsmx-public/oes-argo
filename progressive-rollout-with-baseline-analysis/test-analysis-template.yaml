@@ -13,5 +13,5 @@ spec:
 	  Canary_start_time: "2022-07-29T13:15:00Z"
           LifetimeHours: "0.5"
 	  Threshold:
-	    Pass:     80
+	    Pass: 80
 	    Marginal: 60
